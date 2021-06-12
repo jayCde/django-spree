@@ -17,10 +17,10 @@ from django.contrib import admin
 from rest_framework import routers
 from django.urls import path, include
 
-router = routers.DefaultRouter()
+# router = routers.DefaultRouter()
 
 urlpatterns = [
-    path('', include(router.urls) ),
+    # path('', include(router.urls) ),
     path('admin/', admin.site.urls),
     
     # include all urls in LessonApp dir in proj
